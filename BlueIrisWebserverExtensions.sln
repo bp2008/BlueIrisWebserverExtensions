@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueIrisWebserverExtensions", "BlueIrisWebserverExtensions\BlueIrisWebserverExtensions.csproj", "{A8683DAA-49F1-4283-9F21-1AB7FF37A977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPUtil", "..\BPUtil\BPUtil\BPUtil.csproj", "{A4981D8D-DEBF-4B34-B9CE-FF25520A02B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8683DAA-49F1-4283-9F21-1AB7FF37A977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8683DAA-49F1-4283-9F21-1AB7FF37A977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8683DAA-49F1-4283-9F21-1AB7FF37A977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8683DAA-49F1-4283-9F21-1AB7FF37A977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4981D8D-DEBF-4B34-B9CE-FF25520A02B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4981D8D-DEBF-4B34-B9CE-FF25520A02B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4981D8D-DEBF-4B34-B9CE-FF25520A02B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4981D8D-DEBF-4B34-B9CE-FF25520A02B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99B2D0B8-E207-4145-88CD-794182F9A895}
+	EndGlobalSection
+EndGlobal
