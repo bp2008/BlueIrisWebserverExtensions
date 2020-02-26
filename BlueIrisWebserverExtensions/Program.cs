@@ -15,7 +15,10 @@ namespace BlueIrisWebserverExtensions
 		/// </summary>
 		static void Main()
 		{
-			AppInit.WindowsService<MainService>();
+			WindowsServiceInitOptions options = new WindowsServiceInitOptions();
+			options.RunForDebugging = true;
+
+			AppInit.WindowsService<MainService>(options);
 		}
 	}
 }
